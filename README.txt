@@ -1,6 +1,6 @@
-Hero Escape 1.3
+Hero Escape 1.4
 by hardpenguin (copyright on zlib license)
-2014
+2014-2018
 
 ================
 
@@ -18,9 +18,11 @@ Windows:
 Run heroescape.exe
 
 Linux:
-Run heroescape.run
+Run heroescape
 
-This is a 32-bit binary, so on 64-bit Linux system make sure that you installed needed 32-bit libs first (especially 32-bit libc6 and sound libraries).
+Linux version requires you to install additional dependencies to run the game. On Debian/Ubuntu that can be done by running the following command:
+
+sudo apt-get install love libdevil1c2 liblua5.1-0
 
 ================
 
@@ -55,8 +57,6 @@ DevIL http://openil.sourceforge.net/
 
 4. Contact
 
-If for some reason you wanna contact me, you can send a mail to:
+Visit my Twitter account:
 
-hardpenguin [at] fastmail.fm
-
-Cheers!
+https://twitter.com/hardpenguin13
