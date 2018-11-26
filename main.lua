@@ -165,7 +165,7 @@ function love.load()
 		hero.x=math.random(max_x/square)*square-square
 		hero.y=math.random(max_y/square)*square-square
 		for i=1,#objects_x do
-			if (objects_x[i]==hero.x and objects_y[i]==hero.y) or ((math.abs(wayout.x-hero.x)<9*square) and (math.abs(wayout.y-hero.y)<9*square))  then
+			if (objects_x[i]==hero.x and objects_y[i]==hero.y) or ((math.abs(wayout.x-hero.x)<7*square))  then
 				rpt=1
 				break
 			else
